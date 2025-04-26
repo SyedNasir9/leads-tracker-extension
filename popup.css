@@ -1,0 +1,97 @@
+/* popup.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 16px;
+  width: 320px;            /* Compact and balanced */
+  max-height: 480px;       /* Reasonable popup height */
+  background-color: #f4f6f8;
+  color: #333;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 14px;
+  text-align: center;
+  color: #222;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+input, textarea {
+  padding: 6px 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 50px;
+  max-width: 100%;
+}
+
+button {
+  padding: 8px;
+  font-size: 13px;
+  background-color: #2e89ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1b6fd2;
+}
+
+#leadList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.lead-item {
+  background-color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.lead-item a {
+  color: #2e89ff;
+  text-decoration: none;
+  word-break: break-word;
+  font-size: 13px;
+}
+
+.lead-item a:hover {
+  text-decoration: underline;
+}
+
+.lead-item button {
+  background-color: #f44336;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.lead-item button:hover {
+  background-color: #d32f2f;
+}
