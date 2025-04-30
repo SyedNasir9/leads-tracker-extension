@@ -1,11 +1,9 @@
-/* popup.css */
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 16px;
-  width: 320px;            /* Compact and balanced */
-  max-height: 480px;       /* Reasonable popup height */
+  width: 320px;            
+  max-height: 480px;       
   background-color: #f4f6f8;
   color: #333;
   box-sizing: border-box;
